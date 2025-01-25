@@ -32,7 +32,7 @@ const CountDown = () => {
       <div className="mb-2 text-center text-lg font-bold">
         {t("HomePage.hurryUp")}
         <span className="rounded-md bg-gray-200 px-2 font-bold mx-2">5</span>
-        {t("HomePage.piecesInStock")}
+        {t("HomePage.store")}
       </div>
       <div>
         <div className="mt-4 relative ">
