@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --brand: #ec972e;
+}
+html {
+  scroll-behavior: smooth !important;
+}
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #ced2d8;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 7px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #ced2d8;
+  border-radius: 10px;
+}
+.text-brand {
+  color: #ec810e;
+}
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 600px;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.infinite-slide-swiper {
+  --swiper-wrapper-transition-timing-function: linear !important;
+}
+
+.activethumb {
+  display: none;
+}
+
+.swiper-slide-auto.swiper-slide-thumb-active .divthumb .activethumb {
+  display: flex !important;
+}
+
+.flip-countdown {
+  --background-color: #ec980e !important;
+  --background-bottom-color: #ec810e !important;
+}
+
+.flip-countdown.size-small .flip-countdown-piece .flip-countdown-title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ed9e3d;
+  font-family: system-ui;
+}
